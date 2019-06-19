@@ -32,7 +32,11 @@ brew cleanup
 chmod +x ./git_setup.sh
 ./git_setup.sh
 
-# TODO: install ibm cloud cli
+# install ibm cloud cli
+curl -sL https://ibm.biz/idt-installer | bash
+ibmcloud login -a cloud.ibm.com --sso
+ibmcloud target --cf
+ibmcloud plugin install cloud-functions
 
 # install all npm packages
 npm i -g nodemon
