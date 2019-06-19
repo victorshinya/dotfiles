@@ -12,8 +12,8 @@ source install.sh
 
 ### OSX 
 
-- homebrew
 - git
+- go
 - node
 - python
 - imagemagick
@@ -30,8 +30,8 @@ source install.sh
 - wget
 - youtube-dl
 - serverless
-- nvm
-- oh-my-zsh
+- wsk
+- ibmcloud
 
 ### Node
 
