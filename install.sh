@@ -6,6 +6,7 @@ brew update & brew upgrade
 
 # install all packages
 brew install git
+brew install go
 brew install node
 brew install python
 brew install imagemagick
@@ -22,6 +23,7 @@ brew install terraform
 brew install wget
 brew install youtube-dl
 brew install serverless
+brew install wsk
 
 # remove outdated versions
 brew cleanup
