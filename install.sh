@@ -7,6 +7,7 @@ brew update & brew upgrade
 # install all packages
 brew install git
 brew install go
+brew install glide
 brew install node
 brew install python
 brew install imagemagick
