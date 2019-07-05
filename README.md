@@ -31,6 +31,7 @@ source install.sh
 - youtube-dl
 - serverless
 - wsk
+- cf
 - ibmcloud
 
 ### Node

@@ -24,6 +24,8 @@ brew install wget
 brew install youtube-dl
 brew install serverless
 brew install wsk
+brew tap cloudfoundry/tap
+brew install cf-cli
 
 # remove outdated versions
 brew cleanup
