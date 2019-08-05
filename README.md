@@ -16,6 +16,7 @@ source install.sh
 - go
 - glide
 - node
+- yarn
 - python
 - imagemagick
 - tesseract
