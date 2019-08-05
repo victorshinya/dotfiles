@@ -2,7 +2,7 @@
 
 This is my `dotfiles`, a shell script to install my local OSX machine. Try to run the command below to install the list of tools.
 
-## Run 
+## Run
 
 ```sh
 source install.sh
@@ -10,10 +10,11 @@ source install.sh
 
 ## List of tools
 
-### OSX 
+### OSX
 
 - git
 - go
+- glide
 - node
 - python
 - imagemagick
@@ -33,6 +34,9 @@ source install.sh
 - wsk
 - cf
 - ibmcloud
+    - cloud-functions
+- nvm
+- oh-my-zsh
 
 ### Node
 
