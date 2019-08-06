@@ -11,6 +11,7 @@ brew install glide
 brew install node
 brew install yarn
 brew install python
+brew install cocoapods
 brew install imagemagick
 brew install tesseract
 brew install opencv

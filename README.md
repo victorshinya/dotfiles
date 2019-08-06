@@ -18,6 +18,7 @@ source install.sh
 - node
 - yarn
 - python
+- cocoapods
 - imagemagick
 - tesseract
 - opencv
