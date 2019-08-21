@@ -15,6 +15,7 @@ source install.sh
 - git
 - go
 - glide
+- dep
 - node
 - yarn
 - python

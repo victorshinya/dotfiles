@@ -8,6 +8,7 @@ brew update & brew upgrade
 brew install git
 brew install go
 brew install glide
+brew install dep
 brew install node
 brew install yarn
 brew install python
