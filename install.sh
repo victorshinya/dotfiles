@@ -17,6 +17,7 @@ brew install imagemagick
 brew install tesseract
 brew install opencv
 brew install mongodb
+brew install mysql
 brew install docker
 brew install docker-compose
 brew install kubernetes-cli

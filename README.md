@@ -24,6 +24,7 @@ source install.sh
 - tesseract
 - opencv
 - mongodb
+- mysql
 - docker
 - docker-compose
 - kubernetes-cli
