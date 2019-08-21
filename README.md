@@ -25,6 +25,7 @@ source install.sh
 - opencv
 - mongodb
 - mysql
+- postgresql
 - docker
 - docker-compose
 - kubernetes-cli
