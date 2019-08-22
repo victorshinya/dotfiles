@@ -14,6 +14,8 @@ brew install yarn
 brew install python
 brew install cocoapods
 brew install carthage
+brew tap ibm-swift/kitura
+brew install kitura
 brew install imagemagick
 brew install tesseract
 brew install opencv

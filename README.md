@@ -21,6 +21,7 @@ source install.sh
 - python
 - cocoapods
 - carthage
+- kitura
 - imagemagick
 - tesseract
 - opencv
