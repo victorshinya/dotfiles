@@ -61,7 +61,8 @@ export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# TODO: setup oh-my-zsh plugins
+# setup zsh
+cp .zshrc ~/.zshrc
 
 # set zsh as default shell
 sudo sh -c "echo $(which zsh) >> /etc/shells"
