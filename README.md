@@ -51,3 +51,9 @@ source install.sh
 - @angular/cli
 - create-react-app
 - gatsby-cli
+
+## LICENSE
+
+MIT License
+
+Copyright (c) 2020 Victor Shinya
