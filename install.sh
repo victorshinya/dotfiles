@@ -52,6 +52,7 @@ ibmcloud login -a cloud.ibm.com --sso
 ibmcloud target --cf
 ibmcloud plugin install cloud-functions
 ibmcloud plugin install cloud-databases
+ibmcloud plugin install cloud-object-storage
 
 # install all npm packages
 npm i -g nodemon

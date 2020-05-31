@@ -44,6 +44,7 @@ source install.sh
 - ibmcloud
     - cloud-functions
     - cloud-databases
+    - cloud-object-storage
 - nvm
 - oh-my-zsh
 
