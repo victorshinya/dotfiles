@@ -48,6 +48,7 @@ source install.sh
     - container-registry
     - kubernetes-service
     - vpc-infrastructure
+    - cloud-internet-services
 - nvm
 - oh-my-zsh
 
