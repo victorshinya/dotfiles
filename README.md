@@ -43,6 +43,7 @@ source install.sh
 - cf
 - ibmcloud
     - cloud-functions
+    - cloud-databases
 - nvm
 - oh-my-zsh
 

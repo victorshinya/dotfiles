@@ -51,6 +51,7 @@ curl -sL https://ibm.biz/idt-installer | bash
 ibmcloud login -a cloud.ibm.com --sso
 ibmcloud target --cf
 ibmcloud plugin install cloud-functions
+ibmcloud plugin install cloud-databases
 
 # install all npm packages
 npm i -g nodemon
