@@ -45,6 +45,7 @@ source install.sh
     - cloud-functions
     - cloud-databases
     - cloud-object-storage
+    - container-registry
 - nvm
 - oh-my-zsh
 
