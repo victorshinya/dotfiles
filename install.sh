@@ -21,6 +21,7 @@ brew install kitura
 brew install imagemagick
 brew install tesseract
 brew install opencv
+brew install cacli
 brew install mongodb
 brew install mysql
 brew install postgresql

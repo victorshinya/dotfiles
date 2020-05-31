@@ -25,6 +25,7 @@ source install.sh
 - imagemagick
 - tesseract
 - opencv
+- cacli
 - mongodb
 - mysql
 - postgresql
