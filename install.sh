@@ -55,6 +55,7 @@ ibmcloud plugin install cloud-databases
 ibmcloud plugin install cloud-object-storage
 ibmcloud plugin install container-registry
 ibmcloud plugin install kubernetes-service
+ibmcloud plugin install vpc-infrastructure
 
 # install all npm packages
 npm i -g nodemon

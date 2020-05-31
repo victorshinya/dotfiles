@@ -47,6 +47,7 @@ source install.sh
     - cloud-object-storage
     - container-registry
     - kubernetes-service
+    - vpc-infrastructure
 - nvm
 - oh-my-zsh
 
