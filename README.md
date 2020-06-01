@@ -32,6 +32,7 @@ source install.sh
 - docker
 - docker-compose
 - kubernetes-cli
+- openshift-cli
 - travis
 - drone-cli
 - circleci
