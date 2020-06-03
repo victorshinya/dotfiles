@@ -50,6 +50,7 @@ source install.sh
     - kubernetes-service
     - vpc-infrastructure
     - cloud-internet-services
+    - schematics
 - nvm
 - oh-my-zsh
 
