@@ -59,6 +59,7 @@ ibmcloud plugin install kubernetes-service
 ibmcloud plugin install vpc-infrastructure
 ibmcloud plugin install cloud-internet-services
 ibmcloud plugin install schematics
+ibmcloud plugin install observe-service
 
 # install all npm packages
 npm i -g nodemon

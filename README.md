@@ -51,6 +51,7 @@ source install.sh
     - vpc-infrastructure
     - cloud-internet-services
     - schematics
+    - observe-service
 - nvm
 - oh-my-zsh
 
