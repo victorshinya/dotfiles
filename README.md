@@ -52,6 +52,7 @@ source install.sh
     - cloud-internet-services
     - schematics
     - observe-service
+    - watson
 - nvm
 - oh-my-zsh
 
