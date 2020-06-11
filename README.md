@@ -5,7 +5,8 @@ This is my `dotfiles`, a shell script to install my local OSX machine. Try to ru
 ## Run
 
 ```sh
-source install.sh
+chmod +x ./install.sh
+./install.sh
 ```
 
 ## List of tools
