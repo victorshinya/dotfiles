@@ -34,6 +34,7 @@ chmod +x ./install.sh
 - docker-compose
 - kubernetes-cli
 - openshift-cli
+- helm
 - travis
 - drone-cli
 - circleci

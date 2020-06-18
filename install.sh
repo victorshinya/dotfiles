@@ -29,6 +29,7 @@ brew install docker
 brew install docker-compose
 brew install kubernetes-cli
 brew install openshift-cli
+brew install helm
 brew install travis
 brew install drone-cli
 brew install circleci
