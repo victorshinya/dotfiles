@@ -64,6 +64,7 @@ chmod +x ./install.sh
 - @angular/cli
 - create-react-app
 - gatsby-cli
+- pm2
 
 ## LICENSE
 

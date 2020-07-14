@@ -68,6 +68,7 @@ npm i -g nodemon
 npm i -g @angular/cli
 npm i -g create-react-app
 npm i -g gatsby-cli
+npm i -g pm2
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
