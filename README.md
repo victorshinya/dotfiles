@@ -45,6 +45,7 @@ chmod +x ./install.sh
 - wsk
 - cf
 - ibmcloud
+    - cloud-foundry
     - cloud-functions
     - cloud-databases
     - cloud-object-storage

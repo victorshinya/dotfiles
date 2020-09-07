@@ -51,6 +51,7 @@ chmod +x ./git_setup.sh
 # install ibm cloud cli
 curl -sL https://ibm.biz/idt-installer | bash
 ibmcloud login -a cloud.ibm.com --sso
+ibmcloud cf install
 ibmcloud target --cf
 ibmcloud plugin install cloud-functions
 ibmcloud plugin install cloud-databases
