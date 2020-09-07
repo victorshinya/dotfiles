@@ -5,8 +5,7 @@ This is my `dotfiles`, a shell script to install my local OSX machine. Try to ru
 ## Run
 
 ```sh
-chmod +x ./install.sh
-./install.sh
+bash install.sh
 ```
 
 ## List of tools
@@ -66,6 +65,12 @@ chmod +x ./install.sh
 - create-react-app
 - gatsby-cli
 - pm2
+
+## IBM Cloud Command Line Interface
+
+```sh
+bash ibmcloud_cli/update_plugin.sh
+```
 
 ## LICENSE
 
