@@ -2,15 +2,29 @@
 
 This is my `dotfiles`, a shell script to install my local OSX machine. Try to run the command below to install the list of tools.
 
-## Run
+## Getting Started
+
+If you're new here, you can start running the command below. It will download [Homebrew](https://brew.sh) (a Package Manager for macOS), install all [programming languages, tools, and open source softwares](#List-of-programming-languages-tools-and-open-source-softwares), and set up the .zsh environment.
+
+The terminal will prompt few datas, like git username and password.
 
 ```sh
 bash install.sh
 ```
 
-## List of tools
+## Update IBM Cloud CLI plugins
 
-### OSX
+The IBM Cloud team regularly updates the **IBM Cloud CLI** and the **plugins**. So you can automatically update the list of plugins that you have installed with a single command.
+
+```sh
+bash ibmcloud_cli/update_plugin.sh
+```
+
+## List of programming languages, tools, and open source softwares
+
+Here you can find the list of all programming languages, tools, and open source softwares to be installed.
+
+### General
 
 - git
 - go
@@ -44,33 +58,27 @@ bash install.sh
 - wsk
 - cf
 - ibmcloud
-    - cloud-foundry
-    - cloud-functions
-    - cloud-databases
-    - cloud-object-storage
-    - container-registry
-    - kubernetes-service
-    - vpc-infrastructure
-    - cloud-internet-services
-    - schematics
-    - observe-service
-    - watson
+  - cloud-foundry
+  - cloud-functions
+  - cloud-databases
+  - cloud-object-storage
+  - container-registry
+  - kubernetes-service
+  - vpc-infrastructure
+  - cloud-internet-services
+  - schematics
+  - observe-service
+  - watson
 - nvm
 - oh-my-zsh
 
-### Node
+### Node.js libraries and frameworks
 
 - nodemon
 - @angular/cli
 - create-react-app
 - gatsby-cli
 - pm2
-
-## IBM Cloud Command Line Interface
-
-```sh
-bash ibmcloud_cli/update_plugin.sh
-```
 
 ## LICENSE
 
