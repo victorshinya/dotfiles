@@ -70,6 +70,7 @@ Here you can find the list of all programming languages, tools, and open source 
   - observe-service
   - watson
   - code-engine
+  - monitoring
 - nvm
 - oh-my-zsh
 
