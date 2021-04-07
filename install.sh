@@ -65,6 +65,7 @@ ibmcloud plugin install observe-service
 ibmcloud plugin install watson
 ibmcloud plugin install code-engine
 ibmcloud plugin install monitoring
+ibmcloud plugin install logging
 
 # install all npm packages
 npm i -g nodemon

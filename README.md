@@ -71,6 +71,7 @@ Here you can find the list of all programming languages, tools, and open source 
   - watson
   - code-engine
   - monitoring
+  - logging
 - nvm
 - oh-my-zsh
 
