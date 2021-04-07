@@ -69,6 +69,7 @@ Here you can find the list of all programming languages, tools, and open source 
   - schematics
   - observe-service
   - watson
+  - code-engine
 - nvm
 - oh-my-zsh
 

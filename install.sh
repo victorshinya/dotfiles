@@ -63,6 +63,7 @@ ibmcloud plugin install cloud-internet-services
 ibmcloud plugin install schematics
 ibmcloud plugin install observe-service
 ibmcloud plugin install watson
+ibmcloud plugin install code-engine
 
 # install all npm packages
 npm i -g nodemon
