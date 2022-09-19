@@ -12,14 +12,6 @@ The terminal will prompt few datas, like git username and password.
 bash install.sh
 ```
 
-## Update IBM Cloud CLI plugins
-
-The IBM Cloud team regularly updates the **IBM Cloud CLI** and the **plugins**. So you can automatically update the list of plugins that you have installed with a single command.
-
-```sh
-bash ibmcloud_cli/update_plugin.sh
-```
-
 ## List of programming languages, tools, and open source softwares
 
 Here you can find the list of all programming languages, tools, and open source softwares to be installed.
@@ -28,14 +20,16 @@ Here you can find the list of all programming languages, tools, and open source 
 
 - git
 - go
-- glide
-- dep
-- node
+- node / npm
+  - nodemon
+  - @angular/cli
+  - gatsby-cli
+  - pm2
+  - aws-cdk
 - yarn
 - python
 - cocoapods
 - carthage
-- kitura
 - imagemagick
 - tesseract
 - opencv
@@ -44,7 +38,6 @@ Here you can find the list of all programming languages, tools, and open source 
 - mysql
 - postgresql
 - docker
-- docker-compose
 - kubernetes-cli
 - openshift-cli
 - helm
@@ -55,36 +48,27 @@ Here you can find the list of all programming languages, tools, and open source 
 - wget
 - youtube-dl
 - serverless
-- wsk
-- cf
-- ibmcloud
-  - cloud-foundry
-  - cloud-functions
-  - cloud-databases
-  - cloud-object-storage
-  - container-registry
-  - kubernetes-service
-  - vpc-infrastructure
-  - cloud-internet-services
-  - schematics
-  - observe-service
-  - watson
-  - code-engine
-  - monitoring
-  - logging
+- k6
 - nvm
 - oh-my-zsh
 
-### Node.js libraries and frameworks
+## Softwares
 
-- nodemon
-- @angular/cli
-- create-react-app
-- gatsby-cli
-- pm2
+### Productivity
+
+- [Alfred](https://www.alfredapp.com/): Search engine (hotkeys, keywords, text expansions and more) for MacOS. Recommended for productivity.
+- [Draw.io](https://app.diagrams.net/): Diagram tool. Recommended to create and design architecture diagrams for AWS Cloud.
+- [EdrawMind](https://www.edrawmind.com/): Mind map tool. Recommended to create and manage mind maps.
+- [Notion](https://www.notion.so/): All-in-one workspace. Recommended to organize notes and tasks.
+- [ProWritingAid](https://prowritingaid.com/): Grammar and style checking tool. Recommended for writing documents and narratives.
+- [Rectangle](https://rectangleapp.com/): Move and resize windows in MacOS using keyboard shortcuts or snap areas. Recommended for desktop organization.
+
+### Appearance
+
+- [Fliqlo](https://fliqlo.com/screensaver/): Clock screensaver that allows you to make your desktop/laptop device screen look like a flip clock.
 
 ## LICENSE
 
 MIT License
 
-Copyright (c) 2021 Victor Shinya
+Copyright (c) 2022 Victor Shinya

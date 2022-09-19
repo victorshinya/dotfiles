@@ -9,15 +9,11 @@ brew update & brew upgrade
 # install all packages
 brew install git
 brew install go
-brew install glide
-brew install dep
 brew install node
 brew install yarn
 brew install python
 brew install cocoapods
 brew install carthage
-brew tap ibm-swift/kitura
-brew install kitura
 brew install imagemagick
 brew install tesseract
 brew install opencv
@@ -26,7 +22,6 @@ brew install mongodb
 brew install mysql
 brew install postgresql
 brew install docker
-brew install docker-compose
 brew install kubernetes-cli
 brew install openshift-cli
 brew install helm
@@ -37,9 +32,7 @@ brew install terraform
 brew install wget
 brew install youtube-dl
 brew install serverless
-brew install wsk
-brew tap cloudfoundry/tap
-brew install cf-cli
+brew install k6
 
 # remove outdated versions
 brew cleanup
@@ -48,31 +41,20 @@ brew cleanup
 chmod +x ./git_setup.sh
 ./git_setup.sh
 
-# install ibm cloud cli
-curl -sL https://ibm.biz/idt-installer | bash
-ibmcloud login -a cloud.ibm.com --sso
-ibmcloud cf install
-ibmcloud target --cf
-ibmcloud plugin install cloud-functions
-ibmcloud plugin install cloud-databases
-ibmcloud plugin install cloud-object-storage
-ibmcloud plugin install container-registry
-ibmcloud plugin install kubernetes-service
-ibmcloud plugin install vpc-infrastructure
-ibmcloud plugin install cloud-internet-services
-ibmcloud plugin install schematics
-ibmcloud plugin install observe-service
-ibmcloud plugin install watson
-ibmcloud plugin install code-engine
-ibmcloud plugin install monitoring
-ibmcloud plugin install logging
+# install aws cli
+if test ! $(which aws); then
+    curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+    sudo installer -pkg AWSCLIV2.pkg -target /
+    rm AWSCLIV2.pkg
+fi
+echo "AWS CLI version:" $(aws --version)
 
 # install all npm packages
 npm i -g nodemon
 npm i -g @angular/cli
-npm i -g create-react-app
 npm i -g gatsby-cli
 npm i -g pm2
+npm i -g aws-cdk
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
