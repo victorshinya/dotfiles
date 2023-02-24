@@ -34,6 +34,10 @@ brew install youtube-dl
 brew install serverless
 brew install k6
 
+# install AWS packages
+brew tap aws/tap
+brew install aws-sam-cli
+
 # remove outdated versions
 brew cleanup
 

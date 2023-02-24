@@ -52,6 +52,11 @@ Here you can find the list of all programming languages, tools, and open source 
 - nvm
 - oh-my-zsh
 
+### AWS
+
+- aws/tap
+  - aws-sam-cli
+
 ## Softwares
 
 ### Productivity
