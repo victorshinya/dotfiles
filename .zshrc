@@ -3,7 +3,7 @@ export ZSH="/Users/victorshinya/.oh-my-zsh"
 
 ZSH_THEME="agnoster"
 
-plugins=(git)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)
 
 source $ZSH/oh-my-zsh.sh
 

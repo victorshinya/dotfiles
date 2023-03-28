@@ -51,6 +51,10 @@ Here you can find the list of all programming languages, tools, and open source 
 - k6
 - nvm
 - oh-my-zsh
+  - zsh-autosuggestions
+  - zsh-syntax-highlighting
+  - fast-syntax-highlighting
+  - zsh-autocomplete
 
 ### AWS
 
