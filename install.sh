@@ -33,6 +33,7 @@ brew install wget
 brew install youtube-dl
 brew install serverless
 brew install k6
+brew install nmap
 
 # install AWS packages
 brew tap aws/tap

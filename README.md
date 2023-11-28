@@ -55,6 +55,7 @@ Here you can find the list of all programming languages, tools, and open source 
   - zsh-syntax-highlighting
   - fast-syntax-highlighting
   - zsh-autocomplete
+- nmap
 
 ### AWS
 
@@ -79,7 +80,6 @@ Here you can find the list of all programming languages, tools, and open source 
 ### Hardware
 
 - [Logi Tune](https://www.logitech.com/en-us/video-collaboration/software/logi-tune-software.html): Adjust Logitech webcam's zoom and field of view to frame.
-
 - [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html): Manage and customize Logitech MX Master 3 mouse buttons.
 
 ## LICENSE
