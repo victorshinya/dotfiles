@@ -56,6 +56,7 @@ Here you can find the list of all programming languages, tools, and open source 
   - fast-syntax-highlighting
   - zsh-autocomplete
 - nmap
+- telnet
 
 ### AWS
 

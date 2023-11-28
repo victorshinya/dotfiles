@@ -35,6 +35,7 @@ brew install youtube-dl
 brew install serverless
 brew install k6
 brew install nmap
+brew install telnet
 
 # install AWS packages
 brew tap aws/tap
