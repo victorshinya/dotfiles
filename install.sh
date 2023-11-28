@@ -39,6 +39,7 @@ brew install nmap
 # install AWS packages
 brew tap aws/tap
 brew install aws-sam-cli
+brew install copilot
 
 # remove outdated versions
 brew cleanup

@@ -25,7 +25,6 @@ Here you can find the list of all programming languages, tools, and open source 
   - @angular/cli
   - gatsby-cli
   - pm2
-  - aws-cdk
 - yarn
 - python
 - cocoapods
@@ -60,8 +59,10 @@ Here you can find the list of all programming languages, tools, and open source 
 
 ### AWS
 
+- aws-cdk
 - aws/tap
   - aws-sam-cli
+  - copilot
 
 ## Softwares
 
