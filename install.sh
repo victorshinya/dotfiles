@@ -24,6 +24,7 @@ brew install postgresql
 brew install docker
 brew install kubernetes-cli
 brew install openshift-cli
+brew install minikube
 brew install helm
 brew install travis
 brew install drone-cli

@@ -40,6 +40,7 @@ Here you can find the list of all programming languages, tools, and open source 
 - docker
 - kubernetes-cli
 - openshift-cli
+- minikube
 - helm
 - travis
 - drone-cli
