@@ -39,7 +39,6 @@ brew install telnet
 
 # install AWS packages
 brew tap aws/tap
-brew install aws-sam-cli
 brew install copilot
 
 # remove outdated versions
@@ -51,11 +50,19 @@ chmod +x ./git_setup.sh
 
 # install aws cli
 if test ! $(which aws); then
-    curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+    curl -L "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
     sudo installer -pkg AWSCLIV2.pkg -target /
     rm AWSCLIV2.pkg
 fi
 echo "AWS CLI version:" $(aws --version)
+
+# install aws sam cli
+if test ! $(which sam); then
+    curl -L "https://github.com/aws/aws-sam-cli/releases/latest/download/aws-sam-cli-macos-x86_64.pkg" -o "AWSSAMCLI.pkg"
+    sudo installer -pkg AWSSAMCLI.pkg -target /
+    rm AWSSAMCLI.pkg
+fi
+echo "AWS SAM CLI version:" $(sam --version)
 
 # install all npm packages
 npm i -g nodemon
