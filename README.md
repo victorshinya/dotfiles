@@ -57,6 +57,7 @@ Here you can find the list of all programming languages, tools, and open source 
   - zsh-autocomplete
 - nmap
 - telnet
+- hugo
 
 ### AWS
 

@@ -36,6 +36,7 @@ brew install serverless
 brew install k6
 brew install nmap
 brew install telnet
+brew install hugo
 
 # install AWS packages
 brew tap aws/tap
